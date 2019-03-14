@@ -4,8 +4,8 @@
   "description": "A boilerplate to create presentations using Reveal.JS, Gulp and more",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/gulp",
-    "deploy": "./node_modules/.bin/gulp deploy-pages"
+    "start": "gulp",
+    "deploy": "gulp deploy-pages"
   },
   "keywords": [
     "reveal",
@@ -17,7 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "2.26.3",
-    "gulp": "3.9.1",
+    "gulp": "^3.9.1",
     "gulp-cache": "1.1.1",
     "gulp-concat": "2.6.1",
     "gulp-cssnano": "2.1.3",
@@ -28,5 +28,13 @@
     "gulp-stylus": "2.7.0",
     "gulp-uglify": "3.0.0",
     "gulp-util": "3.0.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labsid/labsid.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/labsid/labsid.github.io/issues"
+  },
+  "homepage": "https://github.com/labsid/labsid.github.io#readme"
 }
